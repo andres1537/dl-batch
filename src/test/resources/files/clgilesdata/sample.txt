@@ -1,0 +1,10 @@
+10_1 A Gupta; Bjorn Kvande ; Irwin B Levinstein ; Kurt Maly ; Margrethe H Olson ; Ravi Mukkamala ; Rita Chambers ; Roy Whitney ; S Nanjangud<>PMES: privilege mangagement and enforcement system for secure distributed resource sharing <>IFIP International Federation for Information Processing World Conference IT Tools
+16_1 A Gupta;Armin Biere ; Edmund M Clarke ; Poul Frederick Williams<>Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking <>CAV Computer Aided Verification
+16_2 A Gupta;Edmund M Clarke ; James H Kukula ; Ofer Shrichman<>SAT Based Abstraction-Refinement Using ILP and Machine Learning Techniques <>CAV Computer Aided Verification
+16_3 Aarti Gupta; Anubhav Gupta; Zijiang Yang; Pranav Ashar<>Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image<>Computation DAC Design Automation Conference
+16_4 Aarti Gupta ; Pranav Ashar ; Zijiang Yang<>Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image Computation <>DAC Design Automation Conference
+16_5 Aarti Gupta ; Pranav Ashar ; Zijiang Yang<>SAT-Based Image Computation with Application in Reachability Analysis <>FMCAD Formal Methods Computer Aided Design
+16_6 A Gupta;Ram Suryanarayan ; Travis N Blalock<>A slew rate enhancement technique for operational amplifiers based on a tunable active Gm-based capacitance multiplication circuit <>ACM Great Lakes Symposium VLSI Very Large Scale Integration
+16_7 Poul Frederick Williams; Armin Biere; Edmund M Clarke; Anubhav Gupta<>Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking<>CAV Computer Aided Verification
+17_2 A Gupta; John P Hayes<>Optimal -D cell layout with integrated transistor folding <>ICCAD International Conference Computer Aided Design
+18_1 A Gupta;Iliana Avila-Campillo; Todd J Green; Ashish Kumar Gupta; Makoto Onizuka; Demian Raven; Dan Suciu<>XMLTK: An XML Toolkit for Scalable XML Stream Processing<> PLANX

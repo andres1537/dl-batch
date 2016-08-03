@@ -1,0 +1,2 @@
+# dl-batch
+This module contains the operations of pre-processing and processing of set of bibliographic citations. This module has the operations to do the load and extraction of information from the Base dataset, and Experimental dataset. Additionally, this module contains the operations necessary for generating the Base dataset, and for generating the data sets for training, and test.

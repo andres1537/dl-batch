@@ -1,0 +1,94 @@
+// http://docs.mongodb.org/master/reference/operator/query/text/
+// https://blog.codecentric.de/en/2013/01/mongodb-text-search-tutorial/
+
+// AND
+db.bibliographicCitationsDBLP.find( { $text: { $search: "\"combining\" \"diverse\"" } } );
+
+// AND WITH PROJECTION (only title field)
+db.bibliographicCitationsDBLP.find( { $text: { $search: "\"CoProcess\" \"Java-based\"" } }, { title: 1 } );
+
+// OR
+db.bibliographicCitationsDBLP.find( { $text: { $search: "combining diverse" } } );
+
+// FIND EXACT STRING AND INSENSITIVE
+db.bibliographicCitationsDBLP.find( { authors: /^a gupta$/i } );
+
+// FIND BY SUBSTRING AND INSENSITIVE
+db.bibliographicCitationsDBLP.find( { authors: /gupta/i } );
+
+// FIND CLUSTERID IS NOT NULL
+db.bibliographicCitationsDBLP.find( { actualClass: { $exists: true } } );
+
+// FIND INCORRECTED AGROUPED
+db.getCollection('references').find( { $where: "this.actualClass != this.predictedClass" } )
+
+// GROUP
+db.bibliographicCitationsDBLP.aggregate(
+   [
+      {
+        $group : {
+            _id : { "actualClass": "$actualClass" },
+            count: { "$sum": 1 }
+        }
+      }
+   ]
+);
+
+// FIND AND GROUP
+db.getCollection('references').aggregate(
+   [
+      {
+		$match : {
+			actualClass : /agupta_/i
+		}
+	  },
+	  {
+        $group : {
+            _id : { "actualClass": "$actualClass" },
+            count : { "$sum": 1 }
+        }
+      }
+   ]
+);
+
+// FIND AND GROUP AND SORT DESC
+db.bibliographicCitationsSynchronized.aggregate(
+   [
+      {
+        $group : {
+            _id : { "actualClass": "$actualClass" },
+            count: { "$sum": 1 }
+        }
+      },
+      
+      { $sort : { count : -1 } }
+   ]
+);
+
+db.bibliographicCitationsDBLP.aggregate(
+   [
+      {
+            $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }] }
+      },
+      {
+        $group : {
+            _id : { "year": "$year" },
+            count: { "$sum": 1 }
+        }
+      },
+      
+      { $sort : { count : -1 } }
+   ]
+);
+
+// DISTINCT
+db.bibliographicCitationsDBLP.distinct( "authors", { type: "BOOK" } )
+
+// DISTINCT AND COUNT
+db.bibliographicCitationsDBLP.distinct( "authors", { type: "BOOK" } ).length
+
+// REMOVE FIELD
+db.bibliographicCitationsDBLP.update({}, { $unset: { similarityLeeGiles: 1 } }, false, true);
+
+// CHANGE LIMIT OF THE RESULTS (find().limit())
+DBQuery.shellBatchSize = 1000000000000000;

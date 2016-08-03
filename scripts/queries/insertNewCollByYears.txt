@@ -1,0 +1,101 @@
+db.getCollection('1967').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1967 }] }} ).toArray())
+db.getCollection('1968').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1968 }] }} ).toArray())
+db.getCollection('1969').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1969 }] }} ).toArray())
+db.getCollection('1970').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1970 }] }} ).toArray())
+db.getCollection('1971').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1971 }] }} ).toArray())
+db.getCollection('1972').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1972 }] }} ).toArray())
+db.getCollection('1973').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1973 }] }} ).toArray())
+db.getCollection('1974').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1974 }] }} ).toArray())
+db.getCollection('1975').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1975 }] }} ).toArray())
+db.getCollection('1976').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1976 }] }} ).toArray())
+db.getCollection('1977').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1977 }] }} ).toArray())
+db.getCollection('1978').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1978 }] }} ).toArray())
+db.getCollection('1979').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1979 }] }} ).toArray())
+db.getCollection('1980').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1980 }] }} ).toArray())
+db.getCollection('1981').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1981 }] }} ).toArray())
+db.getCollection('1982').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1982 }] }} ).toArray())
+db.getCollection('1983').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1983 }] }} ).toArray())
+db.getCollection('1984').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1984 }] }} ).toArray())
+db.getCollection('1985').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1985 }] }} ).toArray())
+db.getCollection('1986').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1986 }] }} ).toArray())
+db.getCollection('1987').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1987 }] }} ).toArray())
+db.getCollection('1988').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1988 }] }} ).toArray())
+db.getCollection('1989').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1989 }] }} ).toArray())
+db.getCollection('1990').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1990 }] }} ).toArray())
+db.getCollection('1991').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1991 }] }} ).toArray())
+db.getCollection('1992').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1992 }] }} ).toArray())
+db.getCollection('1993').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1993 }] }} ).toArray())
+db.getCollection('1994').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1994 }] }} ).toArray())
+db.getCollection('1995').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1995 }] }} ).toArray())
+db.getCollection('1996').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1996 }] }} ).toArray())
+db.getCollection('1997').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1997 }] }} ).toArray())
+db.getCollection('1998').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1998 }] }} ).toArray())
+db.getCollection('1999').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 1999 }] }} ).toArray())
+db.getCollection('2000').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2000 }] }} ).toArray())
+db.getCollection('2001').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2001 }] }} ).toArray())
+db.getCollection('2002').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2002 }] }} ).toArray())
+db.getCollection('2003').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2003 }] }} ).toArray())
+db.getCollection('2004').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2004 }] }} ).toArray())
+db.getCollection('2005').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2005 }] }} ).toArray())
+db.getCollection('2006').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2006 }] }} ).toArray())
+db.getCollection('2007').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2007 }] }} ).toArray())
+db.getCollection('2008').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2008 }] }} ).toArray())
+db.getCollection('2009').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2009 }] }} ).toArray())
+db.getCollection('2010').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2010 }] }} ).toArray())
+db.getCollection('2011').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2011 }] }} ).toArray())
+db.getCollection('2012').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2012 }] }} ).toArray())
+db.getCollection('2013').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2013 }] }} ).toArray())
+db.getCollection('2014').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2014 }] }} ).toArray())
+db.getCollection('2015').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2015 }] }} ).toArray())
+db.getCollection('2016').insert(db.getCollection('bibliographicCitationsDBLP').aggregate({ $match : { $or: [{ type: 'ARTICLE' }, { type: 'INPROCEEDINGS' }], $and: [{ year: 2016 }] }} ).toArray())
+
+mongoexport --db dblpData --collection 1967 --out /usr/local/data/batchDBLP/1967.json
+mongoexport --db dblpData --collection 1968 --out /usr/local/data/batchDBLP/1968.json
+mongoexport --db dblpData --collection 1969 --out /usr/local/data/batchDBLP/1969.json
+mongoexport --db dblpData --collection 1970 --out /usr/local/data/batchDBLP/1970.json
+mongoexport --db dblpData --collection 1971 --out /usr/local/data/batchDBLP/1971.json
+mongoexport --db dblpData --collection 1972 --out /usr/local/data/batchDBLP/1972.json
+mongoexport --db dblpData --collection 1973 --out /usr/local/data/batchDBLP/1973.json
+mongoexport --db dblpData --collection 1974 --out /usr/local/data/batchDBLP/1974.json
+mongoexport --db dblpData --collection 1975 --out /usr/local/data/batchDBLP/1975.json
+mongoexport --db dblpData --collection 1976 --out /usr/local/data/batchDBLP/1976.json
+mongoexport --db dblpData --collection 1977 --out /usr/local/data/batchDBLP/1977.json
+mongoexport --db dblpData --collection 1978 --out /usr/local/data/batchDBLP/1978.json
+mongoexport --db dblpData --collection 1979 --out /usr/local/data/batchDBLP/1979.json
+mongoexport --db dblpData --collection 1980 --out /usr/local/data/batchDBLP/1980.json
+mongoexport --db dblpData --collection 1981 --out /usr/local/data/batchDBLP/1981.json
+mongoexport --db dblpData --collection 1982 --out /usr/local/data/batchDBLP/1982.json
+mongoexport --db dblpData --collection 1983 --out /usr/local/data/batchDBLP/1983.json
+mongoexport --db dblpData --collection 1984 --out /usr/local/data/batchDBLP/1984.json
+mongoexport --db dblpData --collection 1985 --out /usr/local/data/batchDBLP/1985.json
+mongoexport --db dblpData --collection 1986 --out /usr/local/data/batchDBLP/1986.json
+mongoexport --db dblpData --collection 1987 --out /usr/local/data/batchDBLP/1987.json
+mongoexport --db dblpData --collection 1988 --out /usr/local/data/batchDBLP/1988.json
+mongoexport --db dblpData --collection 1989 --out /usr/local/data/batchDBLP/1989.json
+mongoexport --db dblpData --collection 1990 --out /usr/local/data/batchDBLP/1990.json
+mongoexport --db dblpData --collection 1991 --out /usr/local/data/batchDBLP/1991.json
+mongoexport --db dblpData --collection 1992 --out /usr/local/data/batchDBLP/1992.json
+mongoexport --db dblpData --collection 1993 --out /usr/local/data/batchDBLP/1993.json
+mongoexport --db dblpData --collection 1994 --out /usr/local/data/batchDBLP/1994.json
+mongoexport --db dblpData --collection 1995 --out /usr/local/data/batchDBLP/1995.json
+mongoexport --db dblpData --collection 1996 --out /usr/local/data/batchDBLP/1996.json
+mongoexport --db dblpData --collection 1997 --out /usr/local/data/batchDBLP/1997.json
+mongoexport --db dblpData --collection 1998 --out /usr/local/data/batchDBLP/1998.json
+mongoexport --db dblpData --collection 1999 --out /usr/local/data/batchDBLP/1999.json
+mongoexport --db dblpData --collection 2000 --out /usr/local/data/batchDBLP/2000.json
+mongoexport --db dblpData --collection 2001 --out /usr/local/data/batchDBLP/2001.json
+mongoexport --db dblpData --collection 2002 --out /usr/local/data/batchDBLP/2002.json
+mongoexport --db dblpData --collection 2003 --out /usr/local/data/batchDBLP/2003.json
+mongoexport --db dblpData --collection 2004 --out /usr/local/data/batchDBLP/2004.json
+mongoexport --db dblpData --collection 2005 --out /usr/local/data/batchDBLP/2005.json
+mongoexport --db dblpData --collection 2006 --out /usr/local/data/batchDBLP/2006.json
+mongoexport --db dblpData --collection 2007 --out /usr/local/data/batchDBLP/2007.json
+mongoexport --db dblpData --collection 2008 --out /usr/local/data/batchDBLP/2008.json
+mongoexport --db dblpData --collection 2009 --out /usr/local/data/batchDBLP/2009.json
+mongoexport --db dblpData --collection 2010 --out /usr/local/data/batchDBLP/2010.json
+mongoexport --db dblpData --collection 2011 --out /usr/local/data/batchDBLP/2011.json
+mongoexport --db dblpData --collection 2012 --out /usr/local/data/batchDBLP/2012.json
+mongoexport --db dblpData --collection 2013 --out /usr/local/data/batchDBLP/2013.json
+mongoexport --db dblpData --collection 2014 --out /usr/local/data/batchDBLP/2014.json
+mongoexport --db dblpData --collection 2015 --out /usr/local/data/batchDBLP/2015.json
+mongoexport --db dblpData --collection 2016 --out /usr/local/data/batchDBLP/2016.json

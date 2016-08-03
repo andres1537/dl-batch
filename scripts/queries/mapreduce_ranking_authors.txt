@@ -1,0 +1,28 @@
+use dblpData
+var SOURCE = db.bibliographicCitationsDBLP;
+
+map = function() {
+  this.authors.forEach(function(a) {
+	emit( a , {count: 1});
+  });
+}
+
+reduce = function(key, values) {
+  var count = 0;
+
+  values.forEach(function(v) {
+    count += v['count'];       
+  });
+
+  return {count: count};
+};
+
+//
+// run map/reduce
+//
+res = SOURCE.mapReduce( map, reduce, 
+    { query: { $or: [ { "type": "ARTICLE" }, { "type": "INPROCEEDINGS" } ] },
+	  out: { replace : "ranking" },
+      verbose: true
+    }
+    );

@@ -1,0 +1,22 @@
+BatchLeeGilesData
+2016-01-24 14:08:45.371 [INFO] com.cgomez.BatchRunner --- Time taken in segs: 6.086
+clusters:                       479
+bibliographic citations:        8,434
+
+
+BatchDBLP
+2016-01-24 14:26:41.948 [INFO] com.cgomez.BatchRunner --- Time taken in segs: 997.318
+bibliographic citations: 		 4,790,750
+
+
+BatchSync
+2016-01-24 21:57:55.610 [INFO] com.cgomez.BatchRunner --- Time taken in segs: 26848.337
+clusters:                       479
+bibliographic citations:        8,400
+distanceLeeGiles (0.0):         4,793
+
+
+ExtractorTitlesPerVenue
+2016-02-16 05:37:48.040 [INFO] com.cgomez.BatchRunner --- Time taken in segs: 35797.104
+journal:						1563
+booktitle:						9731

@@ -1,0 +1,16 @@
+[
+	{
+	  "key" : "persons/Codd74",
+	  "mdate" : "2012-09-18",
+	  "authors" : ["E. F. Codd"],
+	  "title" : "Seven Steps to Rendezvous with the Casual User.",
+	  "booktitle" : "IFIP Working Conference Data Base Management",
+	  "pages" : "179-200",
+	  "year" : 1974,
+	  "month" : "January",
+	  "url" : "db/conf/ds/dbm74.html#Codd74",
+	  "cdrom" : "DS/DS1974/P179.pdf",
+	  "note" : "IBM Research Report RJ 1333, San Jose, California",
+	  "type" : "INPROCEEDINGS"
+	}
+]

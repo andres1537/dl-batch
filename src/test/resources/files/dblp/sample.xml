@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+	<www mdate="2005-10-06" key="persons/Ley93">
+		<author>Michael Ley</author>
+		<title>DBLP.uni-trier.de: Computer Science Bibliography</title>
+		<url>http://dblp.uni-trier.de/</url>
+		<year>1993</year>
+	</www>
+
+	<inproceedings mdate="2012-09-18" key="persons/Codd74">
+		<author>E. F. Codd</author>
+		<title>Seven Steps to Rendezvous with the Casual User.</title>
+		<month>January</month>
+		<year>1974</year>
+		<pages>179-200</pages>
+		<booktitle>IFIP Working Conference Data Base Management</booktitle>
+		<url>db/conf/ds/dbm74.html#Codd74</url>
+		<note>IBM Research Report RJ 1333, San Jose, California</note>
+		<cdrom>DS/DS1974/P179.pdf</cdrom>
+	</inproceedings>
+
+	<article mdate="2012-02-20" key="persons/LeyCHM11">
+		<author>Rita Ley</author>
+		<author>Markus Casper</author>
+		<author>Hugo Hellebrand</author>
+		<author>Ralf Merz</author>
+		<title>Catchment classification by runoff behaviour with
+			self-organizing maps (SOM)</title>
+		<journal>Hydrology and Earth System Sciences</journal>
+		<volume>15</volume>
+		<pages>2947-2962</pages>
+		<year>2011</year>
+		<ee>http://dx.doi.org/10.5194/hess-15-2947-2011</ee>
+		<url>http://dx.doi.org/10.5194/hess-15-2947-2011</url>
+	</article>
+
+	<inproceedings mdate="2002-01-03" key="persons/JohnLM94">
+		<author>Werner John</author>
+		<author>Dominik Ley</author>
+		<author>Joachim
+			M&uuml;ller
+		</author>
+		<title>ROSAR - Rule Oriented System for Analysis of Reflections on
+			Printed Circuit Boards</title>
+		<pages>40-43</pages>
+		<year>1994</year>
+		<booktitle>Proc. 11th Int. Symposium on Electromagnetic Compatibility
+			(EMC'94)</booktitle>
+	</inproceedings>
+	<article mdate="2011-12-29" key="persons/Ley95" publtype="informal publication">
+		<author>Michael Ley</author>
+		<title>DB&amp;LP: A WWW Bibliography on Databases and Logic
+			Programming</title>
+		<journal>Compulog Newsletter</journal>
+		<year>1995</year>
+		<url>http://www.informatik.uni-trier.de/~ley/db/about/compulog.ps</url>
+	</article>
+</dblp>

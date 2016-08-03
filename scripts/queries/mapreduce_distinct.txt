@@ -1,0 +1,33 @@
+use dblpData
+var SOURCE = db.bibliographicCitationsDBLP;
+var DEST = db.distinct
+DEST.drop();
+
+map = function() {
+  this.authors.forEach(function(a) {
+	emit( a , {count: 1});
+  });
+}
+
+reduce = function(key, values) {
+  var count = 0;
+
+  values.forEach(function(v) {
+    count += v['count'];        // count each distinct value
+  });
+
+  return {count: count};
+};
+
+//
+// run map/reduce
+//
+res = SOURCE.mapReduce( map, reduce, 
+    { query: { "type": "PHDTHESIS" },
+	  out: 'distinct', 
+      verbose: true
+    }
+    );
+
+print( "distinct count= " + res.counts.output );
+print( "distinct count=", DEST.count() );

@@ -1,0 +1,21 @@
+// dblpData
+use dblpData
+db.bibliographicCitationsDBLP.createIndex( { key: 1 }, { unique: true } );
+db.bibliographicCitationsDBLP.createIndex( { title: "text" } );
+db.bibliographicCitationsDBLP.createIndex( { predictedClass: 1 }, { unique: false } );
+db.bibliographicCitationsDBLP.createIndex( { actualClass: 1 }, { unique: false } );
+db.bibliographicCitationsDBLP.createIndex( { type: 1 }, { unique: false } );
+db.clusters.createIndex( { key: 1 }, { unique: true } );
+
+
+// clgilesData
+use clgilesData
+db.bibliographicCitationsDBLP.createIndex( { title: "text" } );
+db.bibliographicCitationsDBLP.createIndex( { predictedClass: 1 }, { unique: false } );
+db.bibliographicCitationsDBLP.createIndex( { actualClass: 1 }, { unique: false } );
+db.clusters.createIndex( { key: 1 }, { unique: true } );
+
+// dblpDisambiguated
+use dblpDisambiguated
+db.references.createIndex( { predictedClass: 1 }, { unique: false } );
+db.clusters.createIndex( { key: 1 }, { unique: true } );

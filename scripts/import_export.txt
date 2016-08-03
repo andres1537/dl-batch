@@ -1,0 +1,6 @@
+mongoimport --db sync --collection bibliographicCitations --drop --file C:/Users/andres/Desktop/bibliographic_citations.json
+mongoimport --db sync --collection clusters --drop --file C:/Users/andres/Desktop/clusters.json
+
+// Export to CSV (Run out of console. It's used on shell)
+mongoexport --db parameters --collection references --type=csv --fields _id,author,coauthors,title,publicationVenue,year,actualClass,predictedClass,topic --out /usr/local/batch/references.csv
+mongoexport --db dblpData --collection 1967 --out /usr/local/data/batchDBLP/1967.json
